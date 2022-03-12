@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 /**
- * main - Functions by printing all possible combinations of 
+ * main - Functions by printing all possible combinations of
  * single-digit numbers.
  *
  * Return: Always 0.
