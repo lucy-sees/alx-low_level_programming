@@ -12,8 +12,7 @@ int main(void)
 	for (letter = 'z'; letter >= 'a'; letter--)
 		putchar(letter);
 
-	
-	putchar ("%X\n" $DECIMAL);
+	putchar ("\n");
 
 	return (0);
 }
