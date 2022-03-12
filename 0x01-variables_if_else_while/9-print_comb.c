@@ -1,6 +1,6 @@
 /*
  * File: 9-print_comb.c
- * Auth: Brennan D Baraban
+ * Author: Lucy W. Mwangi
  */
 
 #include <stdio.h>
