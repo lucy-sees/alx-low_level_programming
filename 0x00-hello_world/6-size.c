@@ -4,7 +4,7 @@
  */
 #include <stdio.h>
 /**
- * main - main block
+* main - Functions by  printing the size of various types
  * Return: 0
  */
 int main(void)
