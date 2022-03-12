@@ -1,6 +1,6 @@
 /*
  * File: 0-positive_or_negative.c
- * Author: Lucy W. Mwangi 
+ * Author: Lucy W. Mwangi
  */
 
 #include <stdlib.h>
