@@ -13,7 +13,7 @@ int main(void)
 		putchar(letter);
 
 	
-	putchar ("%X\n" $DECIMAL)
+	putchar ("%X\n" $DECIMAL);
 
 	return (0);
 }
