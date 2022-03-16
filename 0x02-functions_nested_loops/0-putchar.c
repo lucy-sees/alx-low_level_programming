@@ -10,4 +10,3 @@ int _putchar(char _putchar)
 {
 	return (write(1, &_putchar, 1));
 }
-putchar('\n');
