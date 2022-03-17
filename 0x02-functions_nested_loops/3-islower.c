@@ -1,21 +1,23 @@
-#​include​ ​"​main.h​"
-
-​/*​*
- ​ * _islower - Check Main
- ​ *@c: An input character
- ​ * Description: function uses _putchar function to print
- ​ * alphabet in lowercase 10 times
- ​ * Return: 1 if is lowercase or 0 if is uppercase
- ​ ​*/
-​int​ ​_islower​(​int​ c)
+#include "main.h"
+/**
+* test_islower - Test the _islower function
+*
+* @n: Number to pass to _islower function
+*/
+void test_islower(int n)
 {
-    char​ i;
-    int​ lower = ​0​;
-    for​ (i = ​'​a​'​;  i <= ​'​z​'​;  i++)
-    {
-        if​ (i == c)
-            lower = ​1​;
-        ​        
-    }
-    return​ (lower);
+    int r;
+    r = _islower(n);
+    _putchar(r + '0');
+    _putchar('\n');
+}
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{ 	
+    test_islower('H');
+    	return (0); 
 }
