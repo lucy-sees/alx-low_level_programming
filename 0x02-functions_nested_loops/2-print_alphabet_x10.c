@@ -1,26 +1,19 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet_x10  -  prints 10 times the alphabets, then new line..
- *
+ * print_alphabet_x10  
+ * Description -prints 10 times the alphabets, then new line..
  * Return: Always 0.
  */
 
 int print_alphabet_x10(void)
 {
-	int count = 0;
-	char Alphs;
-
-	while (count < 10)
-	{
-		for (Alphs = 'a'; Alphs <= 'z'; Alphs++)
-		{
-			_putchar(Alphs);
-		}
-
-		_putchar('\n');
-
-		count++;
-	}
-
-	return (0);
+  char i;
+  int j;
+  
+  for (j=0; j<10; j++)
+  {
+    for (i='a'; i<='z'; i++)
+      _putchar(i);
+      _putchar('\n');
+  }
+}
