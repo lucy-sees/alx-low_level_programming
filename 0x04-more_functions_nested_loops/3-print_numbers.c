@@ -1,6 +1,9 @@
 #include "main.h"
 /**
- * print_numbers - function
+ * Author - Lucy W. Mwangi
+ * print_numbers - main function
+ * Description -  a function that prints the numbers, from 0 to 9, 
+ * followed by a new line.
  */
 void print_numbers(void)
 {
