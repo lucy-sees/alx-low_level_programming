@@ -4,7 +4,7 @@
  */
 void print_numbers(void)
 {
-  int n = 48;
+	int n = 48;
 
 	while (n < 58)
 	{
