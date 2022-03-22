@@ -1,23 +1,19 @@
-#include "main.h"
-/**
-* test_islower - Test the _islower function
-*
-* @n: Number to pass to _islower function
-*/
-void test_islower(int n)
-{
-    int r;
-    r = _islower(n);
-    _putchar(r + '0');
-    _putchar('\n');
-}
-/**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
-int main(void)
-{ 	
-    test_islower('H');
-    	return (0); 
+/*
+ ​* File: 2-mul.c
+ ​* Auth: Lucy W. Mwangi
+ ​*/
+
+​#​include​ ​"main.h​"
+
+​/*​*
+ ​ * mul - Multiples two integers.
+ ​ * @a: The first integer to be multiplied.
+ ​ * @b: The second integer to be multiplied.
+ ​ *
+ ​ * Return: The result of the multiplication.
+ ​ ​*/
+​int​ ​mul​(​int​ a, ​int​ b)
+​ {
+    ​        ​return​ (a * b);
+    ​
 }
