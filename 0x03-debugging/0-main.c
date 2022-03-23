@@ -4,7 +4,6 @@
  *main - main function
  *Return: 0
  */
-int positive_or_negative(i);
 
 int main(void)
 {
