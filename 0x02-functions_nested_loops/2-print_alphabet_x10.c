@@ -5,16 +5,19 @@
  * alphabets in lowercase 10 times
  * Return: 0.
  */
-/*Function*/
-void print_alphabet_x10(void)
-{
-    char i;
-    int j;
+​void​ ​print_alphabet_x10​(​void​)
+​ {
+    ​        ​int​ a, b;
 
-    for (j = 0; j < 10; j++)
-    {
-        for (i = 'a'; i <= 'z'; i++)
-            _putchar(i);
-            _putchar('\n');
+    ​        ​for​ (a = ​0​;  a <= ​9​;  a++)
+        ​        {
+        ​                ​for​ (b = ​97​;  b <= ​122​;  b++)
+            ​                {
+            ​                        ​_putchar​(b);
+            ​                
+        }
+        ​        ​_putchar​(​'​\n​'​);
+        ​        
     }
+    ​
 }
