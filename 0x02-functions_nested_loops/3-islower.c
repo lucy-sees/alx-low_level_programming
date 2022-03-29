@@ -1,19 +1,12 @@
-/*
- ​* File: 2-mul.c
- ​* Auth: Lucy W. Mwangi
- ​*/
-
-​#​include​ ​"main.h​"
-
-​/*​*
- ​ * mul - Multiples two integers.
- ​ * @a: The first integer to be multiplied.
- ​ * @b: The second integer to be multiplied.
- ​ *
- ​ * Return: The result of the multiplication.
- ​ ​*/
-​int​ ​mul​(​int​ a, ​int​ b)
-​ {
-    ​        ​return​ (a * b);
-    ​
+#include "main.h"
+/**
+ *main -prints 1 or 0 depending on the input
+ *@c: 1st parameter
+ *
+ *Description: prints all lowercase letters
+ *Return: Always(0).
+ */
+int _islower(int c);
+{
+return(c >= 'a' && c <= 'z');
 }
