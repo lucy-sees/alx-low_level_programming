@@ -2,7 +2,7 @@
 /**
  * main - function main
  *
- * Description 
+ * Description: C program that prints
  *
  */
 int main(void)
@@ -11,5 +11,4 @@ int main(void)
 	
 	write(2, str1, 59);
 	return (1);
-	
 }
