@@ -2,8 +2,8 @@
 
 /**
  * add - add two numbers from input
- * @n1: integer 1
- * @n2: integer 2
+ * @a: integer 1
+ * @b: integer 2
  * Description: adds two integers and returns the result.
  * Return: Always (0).
  */
