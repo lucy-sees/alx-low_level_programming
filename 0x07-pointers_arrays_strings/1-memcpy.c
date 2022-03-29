@@ -1,11 +1,11 @@
 /**
  * Author: Lucy W. Mwangi
- * Task: 1-memcpy.c
+ * Task: 1
  *
  **/
 #include "main.h"
 /**
- * _memcpy - copies memory area,
+ * _memcpy - a function that copies memory area.
  * @dest: destination memory area.
  * @src: source memory area.
  * @n: bytes filled.
