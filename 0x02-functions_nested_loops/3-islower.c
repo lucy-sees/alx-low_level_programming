@@ -6,7 +6,7 @@
  *Description: prints all lowercase letters
  *Return: Always(0).
  */
-
+/*function prototype*/
 int _islower(int c)
 {
 	return (c >= 'a' && c <= 'z');
