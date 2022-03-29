@@ -3,15 +3,13 @@
  * Task: 1-memcpy.c
  *
  **/
- 
- #include "main.h"
- 
+#include "main.h"
 /**
- * _memcpy - copies memory area.
+ * _memcpy - copies memory area,
  * @dest: destination memory area.
  * @src: source memory area.
  * @n: bytes filled.
- * Return: the pointer to destination.
+ * Return: the pointer to dest.
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
