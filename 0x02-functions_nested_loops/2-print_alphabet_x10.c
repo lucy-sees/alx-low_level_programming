@@ -2,8 +2,8 @@
 
 /**
  * main - prints alphabets 10 times
- * Description: prints 10 times the alphabet,
- * in lowercase, followed by a new line
+ * 
+ * Description: prints 10 times the alphabets
  * Return: Always(0).
  */
 
