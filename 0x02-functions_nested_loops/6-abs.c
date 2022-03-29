@@ -1,18 +1,15 @@
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    int r;
+#include "main.h"
 
-    r = _abs(-1);
-    printf("%d\n", r);
-    r = _abs(0);
-    printf("%d\n", r);
-    r = _abs(1);
-    printf("%d\n", r);
-    r = _abs(-98);
-    printf("%d\n", r);
-    return (0);
+/**
+ * 6-abs.c -  computes the absolute value of an integer.
+ * @r: An integer input
+ * Description: This function returns absolute value of a number
+ * Return: Absolute value of number r
+ */
+int _abs(int r)
+{
+	if (r >= 0)
+		return (r);
+	else
+		return (r * -1);
+}
