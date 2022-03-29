@@ -1,4 +1,11 @@
-#include "main.h"
+/**
+ * Author: Lucy W. Mwangi
+ * Task: 1-memcpy.c
+ *
+ **/
+ 
+ #include "main.h"
+ 
 /**
  * _memcpy - copies memory area.
  * @dest: destination memory area.
