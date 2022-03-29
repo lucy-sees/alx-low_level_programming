@@ -6,7 +6,7 @@
  *Description: prints 10 times
  * Return: 0 (Success)
  */
-void 2-print_alphabet_x10.c(void)
+void print_alphabet_x10.c(void)
 {
 	int alphabet_count = 0;
 	while (alphabet_count < 10)
