@@ -6,7 +6,7 @@
  *
  * Return: 0 Always(Success)
  */
-void swap_int(int *n)
+void reset_to_98(int *n)
 {
 	*n = 98;
 )
