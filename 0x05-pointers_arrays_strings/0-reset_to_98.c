@@ -1,10 +1,12 @@
-#​include​ ​"​main.h​"
-​/*​*
- ​ * Main function
- ​ *
- ​ * Return: 0 (success)
- ​ ​*/
-​void​ ​reset_to_98​(​int​ *nn
+/* Author: Lucy W. Mwangi */
+#include "main.h"
+/**
+ * reset_to_98 - swaps the values of two integers.
+ * @n: A pointer to an int that will be updated
+ *
+ * Return: 0 Always(Success)
+ */
+void swap_int(int *n)
 {
-    ​        *n = ​98​;
-}
+	*n = 98;
+)
