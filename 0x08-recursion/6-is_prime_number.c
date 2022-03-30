@@ -1,14 +1,13 @@
 /* Author: Lucy W. Mwangi ..... Task 6 */
-
 #include "main.h"
 
 /**
- *evaluate_num - returns 1 if the input integer is a prime number,
- otherwise return 0.
+ *evaluate_num - compares two strings 
  *@num: num
  *@iterator: number to iterate
  *Return: return 1 or 0
  */
+
 int evaluate_num(int num, int iterator)
 {
 
