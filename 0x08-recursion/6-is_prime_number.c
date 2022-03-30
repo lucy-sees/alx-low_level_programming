@@ -1,34 +1,27 @@
 /* Author: Lucy W. Mwangi ..... Task 6 */
-
 #include "main.h"
-
 /**
  *evaluate_num - returns 1 if the input integer is a prime number,
- otherwise return 0.
- *@num: num
+ *@num: integer number
  *@iterator: number to iterate
  *Return: return 1 or 0
  */
-
 int evaluate_num(int num, int iterator)
 {
-  if (iterator == num - 1)
-  {
-    return (1);
-  }
-
-  else if (num % iterator == 0)
-  {
-    return (0);
-  }
-
-  if (num % iterator != 0)
-  {
-  return (evaluate_num(num, iterator + 1));
-  }
+ if (iterator == num - 1)
+ {
+  return (1);
+ }
+ else if (num % iterator == 0)
+ {
   return (0);
+ }
+ if (num % iterator != 0)
+ {
+  return (evaluate_num(num, iterator + 1));
+ }
+ return (0);
 }
-
 /**
  *is_prime_number - evaluate prime or not
  *@num: number
@@ -37,20 +30,18 @@ int evaluate_num(int num, int iterator)
 
 int is_prime_number(int num)
 {
-
-  int iterator;
-
-  iterator = 2;
+ int iterator;
+ iterator = 2;
 
 /* only greater than 2*/
   if (num < 2)
   {
-  return (0);
+   return (0);
   }
 
   if (num == 2)
   {
-  return (1);
+   return (1);
   }
   return (evaluate_num(num, iterator));
 }
