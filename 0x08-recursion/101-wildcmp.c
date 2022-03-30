@@ -1,9 +1,9 @@
-/* Author: Lucy W. Mwangi ...... Task 8 */
+/* Author: Lucy W. Mwangi ..... Task 8 */
 #include "main.c"
 /**
- * wildcmp - Compares two strings
- * @s1: string 1
- * @s2: string 2
+ * wildcmp - Compare strings
+ * @s1: pointer to string 1
+ * @s2: pointer to string 2
  * Return: 0
  */
 
