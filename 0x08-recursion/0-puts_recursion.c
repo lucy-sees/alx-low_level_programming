@@ -1,5 +1,5 @@
 /* Author: Lucy W. Mwangi ..... Task 0*/
-include "main.h"
+#include "main.h"
 /**
  * _puts_recursion - prints a string followed by a new line.
  * @s: pointer to a string
