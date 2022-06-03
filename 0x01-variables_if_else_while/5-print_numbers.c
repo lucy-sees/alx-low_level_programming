@@ -1,3 +1,7 @@
+/*
+ * File: 5-print_numbers.c
+ * Author: Lucy W. Mwangi
+ */
 #include <stdio.h>
 
 /**

@@ -1,3 +1,7 @@
+/*
+ * File: 7-print_tebahpla.c
+ * Author: Lucy W. Mwangi
+ */
 #include <stdio.h>
 /**
  * main - functions by printing alphabets in reverse
