@@ -1,3 +1,7 @@
+/*
+ * File: 1-last_digit.c
+ * Author: Lucy W. Mwangi
+ */
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>

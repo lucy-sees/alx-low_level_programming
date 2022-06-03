@@ -1,5 +1,8 @@
+/*
+ * File: 2-print_alphabets.c
+ * Author: Lucy W. Mwangi
+ */
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
